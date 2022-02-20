@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/loto.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Guess The Number (1- 100)</h1>
+    <div id="guess">
+        <input id="guessbox" type="text" autocomplete="off" autofocus>
+        <button class="btn" id="check">Check</button>
+        <button class="btn" id="again">Again</button>
+    </div>
+    <div class="font">
+        <p id="note"></p>
+        <p id="alarm"></p>
+    </div>
+   
+    <div class="font">
+        <span>Guessed Numbers:</span> 
+        <input id="guessnumber" type="text" readonly>
+        <span>Attempts:</span> 
+        <input  id="attempt" type="text" readonly>
+        <p>Your Right to Try : 10</p>
+        </div>
+        <img id="img" src="./assets/giphy.gif" alt="gif">
+        <script src="app.js"></script>
+        
+</body>
+</html>
