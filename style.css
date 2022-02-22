@@ -64,3 +64,11 @@ h1{
     color: azure;
     font-weight: bold;
 }
+.difficulty{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: azure;
+    justify-content: center;
+    margin-bottom: 1em;
+}
