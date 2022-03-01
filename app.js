@@ -15,7 +15,6 @@ let counter = 0;
 let counterValue = 10;
 window.addEventListener("load", () => {
   let randomNumber = Math.round(Math.random() * 99); //Math.trunc yönteminde sayını küsuratını kesiyor
-  console.log(randomNumber);
   again.style.display = "none";
   again.addEventListener("click", () => {
     location.reload();
